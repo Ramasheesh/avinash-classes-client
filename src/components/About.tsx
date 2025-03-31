@@ -15,10 +15,10 @@ export default function About() {
           className="grid md:grid-cols-2 gap-12 items-center"
         >
           <div>
-            <h2 className="text-4xl font-bold text-purple-900 mb-6">
+            <h2 className="text-4xl font-bold text-purple-900 mb-8">
               About Uddeshya Competitive Classes
             </h2>
-            <p className="mt-4 text-m font-semibold text-gray-600 tracking-wide leading-relaxed">
+            <p className="mt-10 text-sm font-semibold text-gray-600 tracking-wide leading-relaxed">
               <span className="text-blue-400">उद्देश्य कॉम्पिटिटिव
               क्लासेस</span> में हम
               छात्रों की
@@ -53,7 +53,7 @@ export default function About() {
               में सफलता दिलाई है।
             </p>
 
-            <p className="mt-4 text-m font-semibold text-gray-600 tracking-wide leading-relaxed">
+            <p className="mt-4 text-sm font-semibold text-gray-600 tracking-wide leading-relaxed">
               हमारा संस्थान अपनी
               <span className="text-black font-bold">
                 {" "}
@@ -82,7 +82,7 @@ export default function About() {
               करती है। 🚀
             </p>
 
-            <p className="mt-4 text-m font-semibold text-gray-600 tracking-wide leading-relaxed">
+            <p className="mt-4 text-sm font-semibold text-gray-600 tracking-wide leading-relaxed">
               हमारा उद्देश्य केवल{" "}
               <span className="text-black font-bold">
                 {" "}
@@ -119,9 +119,9 @@ export default function About() {
             {/* <p className="text-gray-600 text-lg mb-6">
               Our institute stands out for its innovative teaching methods, experienced faculty, and comprehensive study materials designed to ensure success in competitive exams.
             </p> */}
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 mt-4 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-purple-900 mb-2">
+                <h3 className="text-m font-semibold text-purple-900 mb-4 mt-2">
                   🎯 हमारा मिशन (Our Mission)
                 </h3>
                 <p className="text-gray-600">
@@ -131,7 +131,7 @@ export default function About() {
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-purple-900 mb-2">
+                <h3 className="text-m font-semibold text-purple-900 mb-2">
                   🌟 हमारी दृष्टि (Our Vision)
                 </h3>
 

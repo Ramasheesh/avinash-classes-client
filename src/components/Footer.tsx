@@ -21,7 +21,7 @@ export default function Footer() {
   const courses = [
     { name: "6th to 9th class", href: "#" },
     { name: "9th to 12th class", href: "#" },
-    { name: "Foundation Course for competitive exams", href: "#" },
+    { name: "Foundation Course", href: "#" },
     { name: "Crash Course", href: "#" },
   ];
 
@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-4xl font-bold mb-4">Uddeshya Competitive Classes</h3>
+            <h3 className="text-2xl font-bold mb-4">Uddeshya Competitive Classes</h3>
             <p className="text-gray-200 text-lg mb-6">
               Transforming education through innovation and excellence.
             </p>
@@ -41,13 +41,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-2xl font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-gray-200 text-lg px-3 py-2 rounded-md transition-all duration-300 hover:bg-yellow-300 hover:text-purple-900 hover:scale-105 hover:shadow-lg"
+                    className="text-gray-200 text-m px-3 py-2 rounded-md transition-all duration-300 hover:bg-yellow-300 hover:text-purple-900 hover:scale-105 hover:shadow-lg"
                   >
                     {link.name}
                   </a>
@@ -57,13 +57,13 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-2xl font-semibold mb-4">Our Courses</h4>
+            <h4 className="text-xl font-semibold mb-4">Our Courses</h4>
             <ul className="space-y-2">
               {courses.map((course) => (
                 <li key={course.name}>
                   <a
                     href={course.href}
-                    className="text-gray-200 text-lg px-3 py-2 rounded-md transition-all duration-300 hover:bg-yellow-300 hover:text-purple-900 hover:scale-105 hover:shadow-lg"
+                    className="text-gray-200 text-m px-3 py-2 rounded-md transition-all duration-300 hover:bg-yellow-300 hover:text-purple-900 hover:scale-105 hover:shadow-lg"
                   >
                     {course.name}
                   </a>
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-2xl font-semibold text-gray-100 mb-6">
+            <h4 className="text-xl font-semibold text-gray-100 mb-6">
               Connect With Us
             </h4>
             <div className="text-center md:text-left">
@@ -116,20 +116,20 @@ export default function Footer() {
                 >
                   {/* <playstore className="w-8 h-8" /  > */}
                   <img
-                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                    src="/classes.svg"
                     alt="My App"
-                    className="w-8 h-8 rounded-full"
+                    className="w-6 h-6 rounded-full"
                   />
                 </a>
                
               </div>
 
               {/* Contact Info */}
-              <p className="text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-300 text-m leading-relaxed">
                 📧 <strong>Email:</strong>
                 <a
                   href="mailto:info@uddeshya.com"
-                  className="hover:text-yellow-400 transition-colors text-lg"
+                  className="hover:text-yellow-400 transition-colors text-m"
                 >
                   {" "}
                   avinashchauhan761@gmail.com
@@ -138,7 +138,7 @@ export default function Footer() {
                 📞 <strong>Phone:</strong>
                 <a
                   href="tel:+911234567890"
-                  className="hover:text-yellow-400 transition-colors text-lg"
+                  className="hover:text-yellow-400 transition-colors text-m"
                 >
                   {" "}
                   +91 6387892863

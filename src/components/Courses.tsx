@@ -80,15 +80,15 @@ export default function Courses() {
   ];
 
   const CourseCard = ({ course, type }) => (
-    <div className="bg-white rounded-2xl shadow-m overflow-hidden transition-transform hover:scale-105">
+    <div className="bg-white rounded-[10px] shadow-m px-6 py-4 overflow-hidden transition-transform hover:scale-105">
       <img
         src={course.image}
         alt={course.title}
-        className="w-full h-30 object-cover"
+        className="w-full h-30 rounded-[10px] object-cover"
       />
       <div className="p-6">
-        <div className="flex justify-between items-center mb-4">
-          <h3 className="text-xl font-bold text-purple-900">{course.title}</h3>
+        <div className="flex  justify-between items-center mb-4">
+          <h3 className="text-m font-bold text-purple-900">{course.title}</h3>
           <span className="bg-yellow-400 text-purple-900 px-3 py-1 rounded-full text-sm font-semibold">
             {type}
           </span>
@@ -126,14 +126,14 @@ export default function Courses() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <animated.div style={fadeIn}>
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-purple-900 mb-4">
+            <h2 className="text-3xl font-bold text-purple-900 mb-4">
               📚 Our Courses | हमारे कोर्स
             </h2>
-            <p className="text-gray-600 text-m">
+            <p className="text-gray-600 text-sm">
               We offer online and offline courses to help you succeed in
               competitive exams. Choose the course that best fits your needs.
             </p>
-            <p className="text-gray-600 text-m">
+            <p className="text-gray-600 text-sm">
               हमारे पास ऑनलाइन और ऑफलाइन कोर्स हैं, जो आपको प्रतियोगी परीक्षाओं
               में सफलता पाने में मदद करेंगे। अपनी जरूरत के अनुसार कोर्स चुनें।
               <br />

@@ -42,11 +42,11 @@ export default function Hero() {
             className="grid md:grid-cols-2 gap-12 items-center"
           >
             <div className="text-white">
-              <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+              <h1 className="text-2xl md:text-5xl font-bold leading-tight">
                 Your Path to <span className="text-yellow-400">Success</span>{" "}
                 Starts Here
               </h1>
-              <p className="mt-4 text-lg font-semibold text-yellow-300 tracking-wide [word-spacing:4px] leading-relaxed">
+              <p className="mt-4 text-sm font-semibold text-yellow-300 tracking-wide [word-spacing:4px] leading-relaxed">
               🎓 श्रेष्ठ शिक्षा, सुनहरा भविष्य! <br /> उद्देश्य कॉम्पिटिटिव
               क्लासेस में हम छात्रों
               को गुणवत्तापूर्ण शिक्षा और आधुनिक लर्निंग टेक्निक्स के माध्यम से
@@ -54,14 +54,14 @@ export default function Hero() {
               मार्गदर्शन<br /> ✅ स्मार्ट क्लासरूम – टेक्नोलॉजी आधारित पढ़ाई <br />✅ बोर्ड और प्रतियोगी
               परीक्षाओं की तैयारी <br />✅ मॉडर्न स्टडी मटेरियल और टेस्ट सीरीज
               </p>
-              <div className="mt-10 flex flex-wrap gap-4">
-                <button className="bg-yellow-400 text-purple-900 px-8 py-4 rounded-full font-semibold text-lg flex items-center gap-2 hover:bg-yellow-300 transition-colors">
+              <div className="mt-10 px-8 py-2 flex flex-wrap gap-6">
+                <button className="bg-yellow-400 text-purple-900 px-8 py-2 rounded-[10px] font-semibold text-m flex items-center gap-2 hover:bg-yellow-300 transition-colors">
                   <a href="https://play.google.com/store/apps/details?id=org.crmind.xyzythfhj&hl=en_IN&gl=US" target="_blank" rel="noopener noreferrer">
                   Start Learning 
                   </a>
                   <ArrowRight className="w-5 h-5" />
                 </button>
-                <button onClick={scrollToCourses} className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition-colors">
+                <button onClick={scrollToCourses} className="border-2 border-white text-white px-8 py-4 rounded-[10px] font-semibold text-m hover:bg-white/10 transition-colors">
                   Free Demo Class
                 </button>
               </div>

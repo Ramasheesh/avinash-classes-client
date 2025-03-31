@@ -39,7 +39,7 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
-  const openModal = () => setShowModal(true);
+  // const openModal = () => setShowModal(true);
   const closeModal = () => {
     setShowModal(false);
     setEmailOrPhone("");
@@ -77,7 +77,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed w-full z-50 text-lg font-semibold transition-all duration-300">
+    <nav className="fixed w-full z-50 text-sm font-semibold transition-all duration-300">
       {/* Scroll Progress Bar */}
       <div
         className="h-1 bg-green-400 fixed top-0 left-0 transition-all duration-300"
@@ -89,7 +89,7 @@ export default function Navbar() {
           isScrolled ? "bg-purple-900/90 backdrop-lg" : "bg-transparent"
         } flex items-center justify-between h-20 transition-all duration-300`}
       >
-        <a href="#home" className="text-4xl font-bold text-white">
+        <a href="#home" className=" ml-10 text-2xl font-bold text-white">
           उद्देश्य प्रतियोगी क्लासेस
         </a>
         {/* <a href="#home" onClick={(e) => { e.preventDefault(); document.getElementById("home")?.scrollIntoView({ behavior: "smooth" }); }} className="text-4xl font-bold text-white">
@@ -111,7 +111,7 @@ export default function Navbar() {
                 }
                 setActiveSection(link.href.substring(1));
               }}
-              className={`relative px-3 py-2 text-m font-medium transition-colors duration-300 group ${
+              className={`relative px-3 py-2 text-sm font-medium transition-colors duration-300 group ${
                 activeSection === link.href.substring(1) ? "text-green-400" : "text-gray-100"
               }`}
             >
@@ -123,13 +123,13 @@ export default function Navbar() {
               ></span>
             </a>
           ))}
-          <button
+          {/* <button
             className="bg-yellow-400 text-purple-900 px-6 py-2 rounded-[10px] text-sm font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all"
             onClick={openModal}
           >
             <Download size={16} />
             Sign In
-          </button>
+          </button> */}
           <button className="bg-yellow-400 text-purple-900 px-6 py-3 rounded-[10px] text-sm font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all">
             <Download size={16} />
             Download App
