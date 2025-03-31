@@ -77,7 +77,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="max-w-7xl mx-auto z-50 text-lg font-semibold transition-all duration-300">
+    <nav className="fixed w-full z-50 text-lg font-semibold transition-all duration-300">
       {/* Scroll Progress Bar */}
       <div
         className="h-1 bg-green-400 fixed top-0 left-0 transition-all duration-300"
@@ -85,7 +85,7 @@ export default function Navbar() {
       ></div>
 
       <div
-        className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${
+        className={`w-full mx-auto px-4 sm:px-6 lg:px-8 ${
           isScrolled ? "bg-purple-900/90 backdrop-lg" : "bg-transparent"
         } flex items-center justify-between h-20 transition-all duration-300`}
       >
