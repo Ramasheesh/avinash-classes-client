@@ -21,35 +21,35 @@ export default function Courses() {
       Registration: "Start from 20th April",
       duration: "6 months",
       students: "50+",
-      image:"./src/assets/9th_class.jpg"    
+      image:"/9th_class.jpg"    
     },
     {
       title: "CLASS 10th Sankal-Batch(Registration Start)",
       price: "₹499",
       duration: "10 months",
       students: "200+",
-      image:"./src/assets/10th_sn.jpg"
+      image:"/10th_sn.jpg"
     },
     {
       title: "CLASS 12th Complete Physics Preparation",
       price: "₹399",
       duration: "9 months",
       students: "300+",
-      image:"./src/assets/12th_phh.jpg"
+      image:"/12th_phh.jpg"
     },
     {
       title: "CLASS 12th English Basic to Advance",
       price: "₹399",
       duration: "9 months",
       students: "300+",
-      image:"./src/assets/12th_Eng.jpg"
+      image:"/12th_Eng.jpg"
     },
     {
       title: "CLASS 11th English Grammar Preparation",
       price: "₹399",
       duration: "9 months",
       students: "400+",
-      image:"./src/assets/11th_grammar.jpg"
+      image:"/11th_grammar.jpg"
     },
   ];
 
@@ -59,7 +59,7 @@ export default function Courses() {
       price: "Free Now",
       duration: "9 months",
       students: "300+",
-      image:"./src/assets/12th_phh.jpg"
+      image:"/12th_phh.jpg"
     },
     {
       title: "Foundation Course coming soon...",

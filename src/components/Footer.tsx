@@ -19,9 +19,9 @@ export default function Footer() {
   ];
 
   const courses = [
-    { name: "JEE Main & Advanced", href: "#" },
-    { name: "NEET Preparation", href: "#" },
-    { name: "Foundation Course", href: "#" },
+    { name: "6th to 9th class", href: "#" },
+    { name: "9th to 12th class", href: "#" },
+    { name: "Foundation Course for competitive exams", href: "#" },
     { name: "Crash Course", href: "#" },
   ];
 
@@ -150,7 +150,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
           <p>
-            &copy; {new Date().getFullYear()} Uddeshya Classes. All rights
+            &copy; {new Date().getFullYear()} Uddeshya Competitive Classes. All rights
             reserved.
           </p>
         </div>

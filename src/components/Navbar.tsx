@@ -77,7 +77,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed w-full z-50 text-lg font-semibold transition-all duration-300">
+    <nav className="max-w-7xl mx-auto z-50 text-lg font-semibold transition-all duration-300">
       {/* Scroll Progress Bar */}
       <div
         className="h-1 bg-green-400 fixed top-0 left-0 transition-all duration-300"
@@ -85,12 +85,12 @@ export default function Navbar() {
       ></div>
 
       <div
-        className={`w-full mx-auto px-4 sm:px-6 lg:px-8 ${
+        className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${
           isScrolled ? "bg-purple-900/90 backdrop-lg" : "bg-transparent"
         } flex items-center justify-between h-20 transition-all duration-300`}
       >
         <a href="#home" className="text-4xl font-bold text-white">
-          उद्देश्य क्लासेस
+          उद्देश्य प्रतियोगी क्लासेस
         </a>
         {/* <a href="#home" onClick={(e) => { e.preventDefault(); document.getElementById("home")?.scrollIntoView({ behavior: "smooth" }); }} className="text-4xl font-bold text-white">
           उद्देश्य क्लासेस
