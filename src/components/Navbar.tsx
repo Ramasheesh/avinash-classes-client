@@ -124,13 +124,13 @@ export default function Navbar() {
             </a>
           ))}
           <button
-            className="bg-yellow-400 text-purple-900 px-6 py-2 rounded-[10px] text-m font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all"
+            className="bg-yellow-400 text-purple-900 px-6 py-2 rounded-[10px] text-sm font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all"
             onClick={openModal}
           >
             <Download size={16} />
             Sign In
           </button>
-          <button className="bg-yellow-400 text-purple-900 px-6 py-3 rounded-[10px] text-m font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all">
+          <button className="bg-yellow-400 text-purple-900 px-6 py-3 rounded-[10px] text-sm font-semibold flex items-center gap-2 hover:bg-yellow-300 transition-all">
             <Download size={16} />
             Download App
           </button>
