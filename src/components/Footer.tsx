@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Uddeshya Competitive Classes</h3>
+            <h3 className="text-2xl font-bold mb-4">Uddeshya Mantra Classes</h3>
             <p className="text-gray-200 text-lg mb-6">
               Transforming education through innovation and excellence.
             </p>
