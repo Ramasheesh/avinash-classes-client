@@ -90,7 +90,7 @@ export default function Navbar() {
         } flex items-center justify-between h-20 transition-all duration-300`}
       >
         <a href="#home" className=" ml-10 text-2xl font-bold text-white">
-          उद्देश्य प्रतियोगी क्लासेस
+          उद्देश्य मंत्र क्लासेस
         </a>
         {/* <a href="#home" onClick={(e) => { e.preventDefault(); document.getElementById("home")?.scrollIntoView({ behavior: "smooth" }); }} className="text-4xl font-bold text-white">
           उद्देश्य क्लासेस
@@ -207,8 +207,10 @@ export default function Navbar() {
 
           {/* Download Button */}
           <button className="w-full bg-yellow-400 text-purple-900 px-4 py-3 rounded-full text-lg font-semibold flex items-center gap-2 justify-center hover:bg-yellow-300 transition-all shadow-md">
-            <Download size={20} />
-            Download App
+            <a href="https://play.google.com/store/apps/details?id=org.crmind.xyzythfhj&hl=en_IN&gl=US" target="_blank" rel="noopener noreferrer">
+              <Download size={20} />
+              Download App
+            </a>
           </button>
         </div>
       </div>

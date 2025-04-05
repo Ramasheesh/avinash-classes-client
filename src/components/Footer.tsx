@@ -128,7 +128,7 @@ export default function Footer() {
               <p className="text-gray-300 text-m leading-relaxed">
                 📧 <strong>Email:</strong>
                 <a
-                  href="mailto:info@uddeshya.com"
+                  href="mailto:avinashchauhan761@gmail.com"
                   className="hover:text-yellow-400 transition-colors text-m"
                 >
                   {" "}
@@ -137,7 +137,7 @@ export default function Footer() {
                 <br />
                 📞 <strong>Phone:</strong>
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+6387892863"
                   className="hover:text-yellow-400 transition-colors text-m"
                 >
                   {" "}
@@ -150,7 +150,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-300">
           <p>
-            &copy; {new Date().getFullYear()} Uddeshya Competitive Classes. All rights
+            &copy; {new Date().getFullYear()} Uddeshya Mantra Classes. All rights
             reserved.
           </p>
         </div>

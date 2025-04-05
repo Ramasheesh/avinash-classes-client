@@ -48,7 +48,7 @@ export default function Features() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-purple-900 mb-4">Why Choose Us</h2>
             <p className="text-gray-600 text-lg max-w-lg3xl mx-auto">
-              Discover what makes Uddeshya competitive Classes the preferred choice for Boards & competitive exam preparation.
+              Discover what makes Uddeshya Mantra Classes the preferred choice for Boards & Mantra exam preparation.
             </p>
           </div>
 

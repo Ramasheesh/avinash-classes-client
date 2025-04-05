@@ -16,7 +16,7 @@ export default function About() {
         >
           <div>
             <h2 className="text-4xl font-bold text-purple-900 mb-8">
-              About Uddeshya Competitive Classes
+              About Uddeshya Mantra Classes
             </h2>
             <p className="mt-10 text-sm font-semibold text-gray-600 tracking-wide leading-relaxed">
               <span className="text-blue-400">उद्देश्य कॉम्पिटिटिव
@@ -146,7 +146,7 @@ export default function About() {
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-              alt="About Uddeshya"
+              alt="About Uddeshya Mantra"
               className="rounded-2xl shadow-2xl"
             />
             <div className="absolute -bottom-6 -right-6 bg-yellow-400 text-purple-900 p-6 rounded-lg shadow-lg">
